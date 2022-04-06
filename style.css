@@ -1,0 +1,227 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.navbar .logo{
+    color: rgb(48, 48, 227);
+    font-weight: bolder;
+}
+
+.navbar .servisi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.763);
+}
+
+.navbar .servisi h2{
+    margin-left: 20px;
+}
+
+.navbar .servisi .blue{
+    color: rgb(78, 78, 199);
+}
+
+.navbar .servisi .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .servisi .border{
+    width: 170px;
+    height: 35px;
+    border: 2px solid rgb(48, 48, 227);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(78, 78, 199);
+}
+
+.hero{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero .text h1{
+    width: 500px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color:rgb(12, 12, 74) ;
+}
+
+.hero p{
+    display: flex;
+    align-items: center;
+}
+
+.hero .gg-check{
+    color: rgb(12, 12, 74) ;
+    margin-right: 2px;
+}
+
+.hero .text .kartice{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.hero .text .prva{
+    width:150px;
+    height: 40px;
+    background-color: rgb(102, 60, 243);
+    margin-top: 20px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.hero .text .druga{
+    height: 40px;
+    width: 170px;
+    border: 2px solid rgb(102, 60, 243);
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color:rgb(102, 60, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.footer .text .cr{
+    display: flex;
+}
+
+.footer .text .cr span{
+    color: black;
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+.footer .text .boost{
+    margin-top: 2px;
+}
+
+.footer .text .boost span{
+    color: rgb(0, 110, 255);
+}
+
+.footer .ikonice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .twiter{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(158, 158, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color:rgb(12, 12, 74) ;
+    font-size: large;
+    margin-right: 5px;
+}
+
+.footer .facebook{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(158, 158, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color:rgb(12, 12, 74) ;
+    font-size: large;
+    margin-right: 5px;
+}
+
+
+
+.footer .instagram{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(158, 158, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color:rgb(12, 12, 74) ;
+    font-size: large;
+    margin-right: 5px;
+}
+
+.footer .skype{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(158, 158, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color:rgb(12, 12, 74) ;
+    font-size: large;
+    margin-right: 5px;
+}
+
+.footer .in{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(158, 158, 158);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    color:rgb(12, 12, 74) ;
+    font-size: large;
+    margin-right: 5px;
+}
+
+.footer .kraj{
+    width: 30px;
+    height: 30px;
+    background-color:rgb(0, 110, 255) ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    align-self: flex-end;
+}
+
+/* ostalo jos da pozicioniram footer :) */
